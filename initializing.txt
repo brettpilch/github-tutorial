@@ -1,0 +1,36 @@
+cd to the directory you want to track:
+   cd ~ [go to home directory]
+   cd .. [go up one directory]
+   cd <directory> [go to <directory>]
+
+initialize git repository:
+   git init
+
+view files in directory:
+   ls
+
+add files to be tracked:
+   git add <filename>
+
+view status (show files that are tracked/untracked):
+   git status
+
+commit changes in tracked files to repository:
+   git commit
+   (this prompts you to enter a short message about the commit)
+
+In github:
+
+create a new empty repository (no readme file)
+copy the url
+
+Back in terminal:
+
+add remote:
+   git remote add origin <url>
+
+if you want to check the remotes:
+   git remote (should display "origin" as the only remote)
+
+push master branch into your github repository:
+   git push origin master
